@@ -28,13 +28,9 @@ function toInput() {
     });
 }
 
-btnEquals.addEventListener('click', function() {
-    toEqualize();
-});
+btnEquals.addEventListener('click', toEqualize);
 
 
-toClears.addEventListener('click', function() {
-    clears();
-});
+toClears.addEventListener('click', clears);
 
 toInput();
